@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        .container {
+            display: flex;
+        }
+        .column{
+            padding: 10px;
+            text-align: justify;
+        }
+        .rangka{
+display: flex;
+        }
+        .isi{
+            padding: 10px;
+            text-align: justify;
+        }
+    </style>
+    <title>Pertemuan 3</title>
+</head>
+
+<body>
+    <h1>TABEL MERGE CELLS</h1>
+    <table>
+        <thead style="background-color: aliceblue;">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+                <th rowspan="2">Kelas</th>
+                <th colspan="3">Tugas</th>
+            </tr>
+            <tr>
+                <th>T1</th>
+                <th>T2</th>
+                <th>T3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Mohammad Khalil Ardhani</td>
+                <td rowspan="5">MI23B</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Muhammad Arfan Algibrani</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Muhammad Abdur Rouf</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Shandy Febriansyah</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Rizki Firdaus</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>DIV</h1>
+    <div class="container">
+        <div class="column" style="background-color: aquamarine;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel explicabo architecto numquam dolorum natus aliquid ducimus corporis quam maxime. Dolorum aspernatur sunt incidunt laborum accusamus dolores autem ipsam ducimus nostrum.</div>
+        <div class="column" style="background-color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere nemo non reiciendis nihil ratione sed. Ducimus, a optio temporibus quis dolorum quas alias, fugit repellat voluptatem provident sint natus, omnis facere itaque ex aperiam! Et, molestiae quo nemo hic, aperiam doloribus vitae veritatis rerum, odit dolores corporis quos optio?</div>
+        <div class="column" style="background-color: pink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quas facere nesciunt ab doloremque quae eaque reprehenderit consequatur at earum. Officiis, cum. Eaque numquam repellendus adipisci cupiditate consequatur harum iusto id porro dignissimos ad aperiam rerum maxime consequuntur consectetur eligendi fuga aliquam molestiae aliquid, in explicabo dolor. Fugiat inventore non minus amet tenetur porro, explicabo officiis placeat velit at impedit quaerat odit qui itaque accusamus doloribus saepe veniam aspernatur modi praesentium! Magni, error. Labore voluptas maxime blanditiis odit quos recusandae explicabo, ipsam officiis vero reprehenderit sunt ullam, delectus quasi itaque.</div>
+    </div>
+    
+    <h1>LATIHAN DIV</h1>
+    <div class="rangka">
+        <div class="isi" style="background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex, asperiores rerum, architecto molestiae optio cumque quaerat voluptatem facere voluptates, similique maiores provident nesciunt? Suscipit odit repudiandae alias excepturi aliquid!</div>
+        <div class="isi" style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum! Enim accusantium sequi delectus atque sit error illo, molestiae illum, eligendi, voluptatibus animi aliquam odio distinctio eveniet laboriosam porro perferendis.</div>
+        <div class="isi" style="background-color: blue; color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, veritatis id? Provident eius ipsam ab doloremque vero architecto delectus veritatis veniam inventore quia obcaecati nam quo nulla, consectetur eos iure.</div>
+    </div>
+</body>
+
+</html>
